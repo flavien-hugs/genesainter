@@ -1,0 +1,48 @@
+{% if paginator.total_pages > 1 %}
+    <nav aria-label="page navigation example">
+        <ul class="pagination pl-0 justify-content-center mt-3">
+            {% if paginator.previous_page %}
+                <li class="page-item">
+                    <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">
+                        <i class="mr-2 fas fa-angle-left"></i> Précédent
+                    </a>
+                </li>
+            {% else %}
+                <li class="page-item disabled">
+                    <a class="page-link">
+                        <i class="mr-2 fas fa-angle-left"></i> Précédent
+                    </a>
+                </li>
+            {% endif %}
+
+            {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                    <li class="page-item active">
+                        <a class="page-link" href="{{ page }}">{{ page }}
+                        </a>
+                    </li>
+                {% elsif page == 1 %}
+                    <li class="page-item">
+                        <a class="page-link" href="{{ '/' | relative_url }}">{{ page }}</a>
+                    </li>
+                {% else %}
+                    <li class="page-item">
+                        <a class="page-link" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+
+            {% if paginator.next_page %}
+                <li class="page-item">
+                    <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">Suivant <i class="ml-2 fas fa-angle-right"></i></a>
+                </li>
+            {% else %}
+                <li class="page-item disabled">
+                    <a class="page-link">
+                        Suivant<i class="ml-2 fas fa-angle-right"></i> 
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
+{% endif %}

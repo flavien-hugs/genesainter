@@ -1,0 +1,13 @@
+<div class="section-partners py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="service">
+                {% for item in site.data.partners.parner %}
+                    <div class="lender-box text-center">
+                        <img src="{{ item.image | prepend: site.baseurl }}" srcset="{{ item.image | prepend: site.baseurl }}" alt="{{ item.title }}">
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

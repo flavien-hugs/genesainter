@@ -1,0 +1,23 @@
+#----------------
+# PARTNER
+#----------------
+
+parner:
+
+- title: Amnesty International
+  image: '/assets/img/partners/amnesty.png'
+
+- title: CEDEAO
+  image: '/assets/img/partners/cedeao.png'
+
+- title: ONUCI
+  image: '/assets/img/partners/onuci.png'
+
+- title: UN
+  image: '/assets/img/partners/un.png'
+
+- title: UNESCO
+  image: '/assets/img/partners/unesco.png'
+
+- title: UNHCR
+  image: '/assets/img/partners/unhcr.png'

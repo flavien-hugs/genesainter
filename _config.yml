@@ -1,0 +1,89 @@
+#----------------------------------------
+# Configuration du site
+# http://jekyllrb.com/docs/configuration/
+#----------------------------------------
+
+destination: _site
+author: flavien-hugs
+email: infos@genesainter.org
+tel: (+225) 22 00 48 65 / 05 07 60 14
+over: "heures d'ouvertures : 08 - 18 heures"
+location: Abidjan - Cocody palmerais - 25 BP 2432 Abidjan
+title: ONG GENESA
+language: "fr"
+baseurl: ""
+url: ""
+description: "Contruisons un monde plus transparent"
+keywords: []
+
+timezone: Africa/Abidjan
+
+#------------
+# Social Link
+#------------
+
+twitter: https://www.twitter.com/
+linkedin: https://www.linkedin.com/
+youtube: https://www.youtube.com/
+facebook: https://www.facebook.com/
+
+#-----------------------
+# configuration du build
+#-----------------------
+
+encoding: utf-8
+markdown: kramdown
+# permalink: /formation/:categories/:year/:month/:title
+
+#---------------------
+# Configuration plugin
+#---------------------
+
+plugins:
+  - jekyll-paginate
+  - jekyll-minifier
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+jekyll-minifier:
+  exclude: 'atom.xml'
+  uglifier_args:
+    harmony: true
+  remove_spaces_inside_tags: true
+  remove_multi_spaces: true
+  compress_javascript: true 
+
+paginate: 20
+# paginate_path: "/formation/page:num"
+
+
+#---------------------
+# configuration assets
+#---------------------
+
+sass:
+  load_paths:
+      _sass
+      node_modules
+  style: compressed
+
+#-----------------------
+# configuration includes
+#-----------------------
+
+includes_dir : _includes
+layouts_dir : _layouts
+
+#-----------------------
+# configuration excludes
+#-----------------------
+
+exclude:
+  - .sass-cache
+  - .jekyll-cache
+  - Gemfile
+  - node_modules
+  - package.json
+  - package-lock.json
+
+livereload: true

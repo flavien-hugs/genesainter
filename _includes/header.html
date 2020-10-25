@@ -1,0 +1,73 @@
+<div class="top-bar">
+    <!-- top-bar -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 d-none d-xl-block d-lg-block">
+                <div class="top-nav">
+                    <span class="top-text">
+                        <i class="fa fa-map-marker"> {{ site.location }}</i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 d-none d-xl-block d-lg-block">
+                <div class="top-nav">
+                    <span class="top-text">
+                        <i class="fa fa-clock-o"></i>
+                        {{ site.over }}
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 d-none d-xl-block d-lg-block">
+                <div class="top-nav">
+                    <span class="top-text">
+                        <i class="fa fa-phone"></i>
+                        Tél: {{ site.tel }}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- /.top-bar -->
+
+<!-- NAVBAR-->
+<div class="header py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12 text-sm-center">
+                <!-- logo -->
+                <div class="logo">
+                    <a href="/">
+                        <img src="{{'/assets/img/logo.png' | prepend: site.baseurl}}" alt="{{ site.title }}">
+                    </a>
+                </div>
+            </div><!-- end logo -->
+
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                <div id="navigation">
+                    <!-- navigation start-->
+                    <ul>
+                        {% if site.data.nav.menu[0] %}
+                            {% for item in site.data.nav.menu %}
+                                <li class="{% if item.url == page.url %}active{% endif %}">
+                                    <a href="{{ item.url | prepend: site.baseurl }}" class="animsition-link">
+                                    {{ item.title }}</a>
+
+                                    {% if item.submenu[0] %}
+                                        <ul>
+                                            {% for sub in item.submenu %}
+                                                <li><a href="{{ sub.url | prepend: site.baseurl }}" title="{{ url.title }}" class="animsition-link text-capitalize">{{ sub.title }}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                        {% endif %}
+                    </ul>
+                </div><!-- end navigation start-->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END NAVBAR-->

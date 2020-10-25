@@ -1,0 +1,20 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+    <html lang="{{ site.language }}">
+    {% include meta.html %}
+
+    <body class="d-flex flex-column">
+        <div class="flex-grow-1 flex-shrink-0">
+            {% include header.html %}
+            <!-- end header -->
+
+            {{ content }}
+        </div>
+
+        {% include footer.html %}
+        <!-- end footer -->
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<div class="slider" id="slider">
+    <!-- hero -->
+    {% for item in site.data.carousel.slider %}
+        <div class="slider-img">
+            <img src="{{ item.image | prepend: site.baseurl }}" alt="{{ item.title }}">
+            <div class="container">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="slider-captions">
+                        <!-- hero section -->
+                        <h1 class="slider-title">{{ item.title }}</h1>
+
+                        <p class="slider-text d-none d-xl-block d-lg-block d-sm-block">{{ item.content }}
+                        </p>
+
+                        <a href="" class="btn btn-sm btn-info text-white">En savoir plus...</a>
+                    </div><!-- /.hero -->
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

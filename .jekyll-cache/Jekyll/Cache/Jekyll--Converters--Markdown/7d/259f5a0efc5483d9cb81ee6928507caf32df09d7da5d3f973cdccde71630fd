@@ -1,0 +1,134 @@
+I"Z/<div class="container">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt40">
+            <div class="page-breadcrumb">
+                <ol class="breadcrumb">
+                    <li><a href="/">Accueil</a></li>
+                    <li class="active text-light">FAQ</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-space20 pt-5">
+    <!-- content start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="wrapper-content bg-white pinside40">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="section-title mb30">
+                                    <h1>Questions General</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 st-accordion">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title">
+                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Lorem ipsum dolor</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi alias sed veritatis culpa, laudantium porro, esse et voluptatum, nesciunt magnam ex. Exercitationem nisi eveniet quia in cumque, dolores repellat delectus.</div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Lorem ipsu</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">, dolor sit amet consectetur adipisicing elit. Et, at! Fuga tempore beatae corrupti neque corporis! Voluptates aspernatur, fuga, aliquam molestiae rem repellat, illum blanditiis quia, sapiente esse placeat accusamus Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus atque consectetur eveniet, enim velit rerum. Aliquam cum, officia exercitationem quis fuga rem vel nostrum repellendus, ullam ipsam aspernatur cumque, odit.</div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingThree">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Lorem ipsum dolor sit</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div class="panel-body">, quisquam et cum velit adipisci dolorum quia rem optio animi magnam amet, placeat, dolores officia eligendi incidunt suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio cupiditate nemo, rem nostrum magni corporis distinctio obcaecati nisi, fugiat provident commodi exercitationem dicta qui itaque, ducimus ab? Iure, accusamus?</div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingFour">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Lorem ipsum dolor</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                            <div class="panel-body">, quisquam et cum velit adipisci dolorum quia rem optio animi magnam amet, placeat, dolores officia eligendi incidunt suscipit Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Beatae magnam suscipit expedita qui, maiores molestias. Temporibus omnis quos labore facilis modi veniam officia maiores nisi repellat, dolore officiis consequatur expedita?</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="py-5">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="section-title mb30">
+                                    <h1>Pourquoi GENESA</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 st-accordion">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title">
+                                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Lorem ipsum dolor</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi alias sed veritatis culpa, laudantium porro, esse et voluptatum, nesciunt magnam ex. Exercitationem nisi eveniet quia in cumque, dolores repellat delectus.</div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Lorem ipsu</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body">, dolor sit amet consectetur adipisicing elit. Et, at! Fuga tempore beatae corrupti neque corporis! Voluptates aspernatur, fuga, aliquam molestiae rem repellat, illum blanditiis quia, sapiente esse placeat accusamus Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus atque consectetur eveniet, enim velit rerum. Aliquam cum, officia exercitationem quis fuga rem vel nostrum repellendus, ullam ipsam aspernatur cumque, odit.</div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingThree">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Lorem ipsum dolor sit</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                            <div class="panel-body">, quisquam et cum velit adipisci dolorum quia rem optio animi magnam amet, placeat, dolores officia eligendi incidunt suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo odio cupiditate nemo, rem nostrum magni corporis distinctio obcaecati nisi, fugiat provident commodi exercitationem dicta qui itaque, ducimus ab? Iure, accusamus?</div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingFour">
+                                            <h4 class="panel-title">
+                                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Lorem ipsum dolor</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                            <div class="panel-body">, quisquam et cum velit adipisci dolorum quia rem optio animi magnam amet, placeat, dolores officia eligendi incidunt suscipit Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Beatae magnam suscipit expedita qui, maiores molestias. Temporibus omnis quos labore facilis modi veniam officia maiores nisi repellat, dolore officiis consequatur expedita?</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+:ET

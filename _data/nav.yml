@@ -1,0 +1,30 @@
+#----------------
+# NAVIGATION
+#----------------
+
+menu:
+
+- title: Accueil
+  url: /
+
+- title: A propos de nous
+  url: /about-us/
+
+- title: Activités
+  url: #
+  submenu:
+    - title: Actions
+      url: /actions/
+    - title: Programmes
+      url: /programmes/
+
+- title: S'engager avec nous
+  url: /sengager/
+  submenu:
+    - title: Signer un partenariat
+      url: /partenariat/
+    - title: Devenir membre
+      url: /devenir-membre/
+
+- title: Contact
+  url: /contact/

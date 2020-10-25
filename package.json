@@ -1,0 +1,26 @@
+{
+  "name": "marketing-expert",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/704db775-7bda-4ec6-89ab-76d2e884b56b/deploy-status)](https://marketing-expert.netlify.app) [![Marketing Expert](https://img.shields.io/badge/jekyll-V.0.0.1-yellowgreen.svg)](https://github.com/flavien-hugs/MarketingExpert)",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "jquery-sticky": "^1.0.4",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavien-hugs/MarketingExpert.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flavien-hugs/MarketingExpert/issues"
+  },
+  "homepage": "https://github.com/flavien-hugs/MarketingExpert#readme"
+}
