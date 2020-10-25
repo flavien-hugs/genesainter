@@ -1,10 +1,9 @@
-# [IBW](https://github.com/flavien-hugs/IBW) - Inter Business World
+# [IBW](https://github.com/flavien-hugs/genesainter) - ONG GENESA
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/704db775-7bda-4ec6-89ab-76d2e884b56b/deploy-status)](https://ibw.netlify.app/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d44a2bdb-e72f-4485-9ab1-7cc31566867a/deploy-status)](https://app.netlify.com/sites/ibw/deploys)
-[![IBW](https://img.shields.io/badge/IBW-build-success.svg)](https://github.com/flavien-hugs/IBW)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/02b3d35e-a53a-4461-ac74-24250eb195b1/deploy-status)](https://app.netlify.com/sites/genesainter/deploys)
+[![ONG GENESA](https://img.shields.io/badge/ONG%20GENESA-BUILD%20-success.svg)](https://github.com/flavien-hugs/genesainter)
 
-Code source du projet de site web de IBW.
+GENESA a pour objectif le changement et la reconversion des mentalités et des comportements, l'inculpation d'un nouvel esprit politique et économique
 
 Cette plateforme est hébergée sur Netlify et servi grâce à GitHub Pages, ce qui permet une régénération du site et est publié presque immédiatement.
 
